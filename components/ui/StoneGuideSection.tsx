@@ -394,16 +394,6 @@ export default function StoneGuideSection() {
           </div>
         </div>
 
-        <div className="mt-12 text-center">
-          <p className="text-gray-400 text-xs md:text-sm flex flex-col md:flex-row items-center justify-center gap-2">
-            <span className="flex items-center gap-2">
-              <IconInfo size={14} /> Karar veremediniz mi?
-            </span>
-            <span className="text-gold font-medium">
-              Yapay Zeka Asistanımıza Danışın
-            </span>
-          </p>
-        </div>
       </div>
     </section>
   );

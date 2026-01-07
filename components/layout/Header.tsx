@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 const navItems = [
-  { href: "/kurumsal", label: "Hakkımızda" },
-  { href: "/koleksiyon", label: "Koleksiyon" },
+  { href: "/kurumsal", label: "Kurumsal" },
+  { href: "/koleksiyon", label: "Bireysel" },
   { href: "/projeler", label: "Biz kimiz?" },
   { href: "/iletisim", label: "İletişim" }
 ];

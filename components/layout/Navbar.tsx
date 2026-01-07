@@ -16,11 +16,11 @@ export default function Navbar() {
 
       <div className="hidden space-x-8 text-sm font-sans tracking-wide pointer-events-auto md:flex">
         <Link href="/kurumsal" className="hover:text-gold transition-colors relative group">
-          Hakkımızda
+          Kurumsal
           <span className="absolute -bottom-1 left-0 h-0.5 w-0 bg-gold transition-all group-hover:w-full" />
         </Link>
         <Link href="/koleksiyon" className="hover:text-gold transition-colors relative group">
-          Koleksiyon
+          Bireysel
           <span className="absolute -bottom-1 left-0 h-0.5 w-0 bg-gold transition-all group-hover:w-full" />
         </Link>
         <Link href="/koleksiyon#trend-vision" className="hover:text-gold transition-colors relative group">

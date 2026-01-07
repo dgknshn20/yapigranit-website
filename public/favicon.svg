@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Diamond">
+  <defs>
+    <linearGradient id="diamond-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5de93" />
+      <stop offset="1" stop-color="#b8872f" />
+    </linearGradient>
+  </defs>
+  <path fill="url(#diamond-gold)" d="M32 4 8 24l24 36 24-36z" />
+  <path fill="#ffffff" fill-opacity="0.35" d="M32 4 20 24h24z" />
+  <path fill="#000000" fill-opacity="0.12" d="M8 24h48L32 60z" />
+</svg>
