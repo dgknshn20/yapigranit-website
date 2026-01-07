@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useState, type ReactElement } from "react";
 
 type IconProps = {
   size?: number;
@@ -145,7 +145,7 @@ type Material = {
   subtitle: string;
   description: string;
   image: string;
-  features: { name: string; value: number; icon: JSX.Element }[];
+  features: { name: string; value: number; icon: ReactElement }[];
   pros: string[];
   bestFor: string;
   tag: string;
