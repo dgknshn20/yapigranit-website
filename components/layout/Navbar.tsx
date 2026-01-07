@@ -28,7 +28,7 @@ export default function Navbar() {
           <span className="absolute -bottom-1 left-0 h-0.5 w-0 bg-gold transition-all group-hover:w-full" />
         </Link>
         <Link href="/projeler" className="hover:text-gold transition-colors relative group">
-          Projeler
+          Biz kimiz?
           <span className="absolute -bottom-1 left-0 h-0.5 w-0 bg-gold transition-all group-hover:w-full" />
         </Link>
         <Link href="/iletisim" className="hover:text-gold transition-colors relative group">

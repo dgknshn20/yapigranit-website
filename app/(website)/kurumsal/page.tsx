@@ -12,7 +12,7 @@ export default function CorporatePage() {
   );
   const whatsappHref = `https://wa.me/905327443271?text=${whatsappMessage}`;
   const stackCardBase =
-    "sticky top-0 min-h-screen w-full rounded-t-[3rem] border shadow-2xl overflow-hidden relative isolate";
+    "relative w-full rounded-[2.5rem] border shadow-2xl overflow-hidden isolate mx-4 md:mx-6";
 
   return (
     <main className="bg-black text-white min-h-screen">
@@ -86,10 +86,10 @@ export default function CorporatePage() {
         </div>
       </section>
 
-      <section className="relative bg-black">
-        <div className="relative pb-24">
+      <section className="relative bg-black py-24">
+        <div className="relative space-y-16">
           <section
-            className={`${stackCardBase} z-10 border-white/10 bg-black text-white shadow-black/70`}
+            className={`${stackCardBase} border-white/10 bg-black text-white shadow-black/70`}
           >
             <div className="absolute inset-0">
               <Image
@@ -100,8 +100,8 @@ export default function CorporatePage() {
                 sizes="100vw"
               />
               <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black" />
-              <div className="absolute -top-24 right-16 h-72 w-72 rounded-full bg-gold/20 blur-[140px] animate-float-slow" />
-              <div className="absolute -bottom-32 left-10 h-72 w-72 rounded-full bg-gold/10 blur-[160px] animate-float-slower" />
+              <div className="absolute -top-24 right-16 h-72 w-72 rounded-full bg-gold/20 blur-[140px]" />
+              <div className="absolute -bottom-32 left-10 h-72 w-72 rounded-full bg-gold/10 blur-[160px]" />
             </div>
             <div className="absolute inset-0 texture-overlay opacity-30" />
             <div className="relative z-10 container mx-auto px-6 py-20">
@@ -114,20 +114,19 @@ export default function CorporatePage() {
                     Dijital Hizmet Kataloğu
                   </h2>
                   <p className="text-gray-200 text-lg leading-relaxed">
-                    Aşağı kaydırdıkça her bölüm üst üste kapanır; dosya/klasör
-                    hissi veren, premium bir katalog deneyimi yaratırız. Her
-                    başlık aynı kart formunda, aynı dilde ve aynı zarafetle
-                    ilerler.
+                    Hizmetlerimizi tek bir akışta, tutarlı kartlar ve net
+                    hiyerarşiyle sunuyoruz. Her bölüm kendi içeriğine odaklanır;
+                    kayma ya da üst üste binme olmadan akıcı bir deneyim sağlar.
                   </p>
                   <div className="flex flex-wrap gap-3 text-[11px] uppercase tracking-[0.25em] text-gold/70">
                     <span className="rounded-full border border-gold/30 bg-black/40 px-3 py-1">
-                      Sticky Kartlar
+                      Dengeli Akış
                     </span>
                     <span className="rounded-full border border-gold/30 bg-black/40 px-3 py-1">
-                      Doku + Gölge
+                      Net Hiyerarşi
                     </span>
                     <span className="rounded-full border border-gold/30 bg-black/40 px-3 py-1">
-                      Katalog Akışı
+                      Stabil Geçiş
                     </span>
                   </div>
                 </div>
@@ -161,12 +160,12 @@ export default function CorporatePage() {
           </section>
 
           <section
-            className={`${stackCardBase} z-20 border-slate-700/70 bg-slate-900 text-white shadow-black/70`}
+            className={`${stackCardBase} border-slate-700/70 bg-slate-900 text-white shadow-black/70`}
           >
             <div className="absolute inset-0">
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.08),_transparent_55%)]" />
-              <div className="absolute -top-24 right-16 h-72 w-72 rounded-full bg-slate-700/30 blur-[140px] animate-float-slow" />
-              <div className="absolute bottom-0 left-10 h-72 w-72 rounded-full bg-slate-700/20 blur-[160px] animate-float-slower" />
+              <div className="absolute -top-24 right-16 h-72 w-72 rounded-full bg-slate-700/30 blur-[140px]" />
+              <div className="absolute bottom-0 left-10 h-72 w-72 rounded-full bg-slate-700/20 blur-[160px]" />
             </div>
             <div className="absolute inset-0 texture-overlay opacity-25" />
             <div className="relative z-10 container mx-auto px-6 py-20">
@@ -209,13 +208,15 @@ export default function CorporatePage() {
                 </div>
                 <div className="lg:col-span-7 grid gap-6 sm:grid-cols-2">
                   <div className="group page-flip-card rounded-2xl border border-slate-700/70 bg-slate-800/70 p-6 shadow-xl shadow-black/40 transition-transform duration-500 hover:-translate-y-1">
-                    <div
-                      className="page-flip-image"
-                      style={{
-                        backgroundImage:
-                          "url('/images/mekanikcephe.avif')"
-                      }}
-                    />
+                    <div className="page-flip-image">
+                      <Image
+                        src="/images/mekanikcephe.avif"
+                        alt="Mekanik cephe sistemleri"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 60vw"
+                      />
+                    </div>
                     <div className="page-flip-scrim absolute inset-0 z-10 bg-slate-950/70" />
                     <div className="page-flip-sheet page-flip-sheet-dark" />
                     <div className="page-flip-content relative z-30">
@@ -254,13 +255,15 @@ export default function CorporatePage() {
                     </div>
                   </div>
                   <div className="group page-flip-card rounded-2xl border border-slate-700/70 bg-slate-800/70 p-6 shadow-xl shadow-black/40 transition-transform duration-500 hover:-translate-y-1">
-                    <div
-                      className="page-flip-image"
-                      style={{
-                        backgroundImage:
-                          "url('/images/patlatma5.avif')"
-                      }}
-                    />
+                    <div className="page-flip-image">
+                      <Image
+                        src="/images/patlatma5.avif"
+                        alt="Patlatma kaplama dokusu"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 60vw"
+                      />
+                    </div>
                     <div className="page-flip-scrim absolute inset-0 z-10 bg-slate-950/70" />
                     <div className="page-flip-sheet page-flip-sheet-dark" />
                     <div className="page-flip-content relative z-30">
@@ -299,13 +302,15 @@ export default function CorporatePage() {
                     </div>
                   </div>
                   <div className="group page-flip-card sm:col-span-2 rounded-2xl border border-slate-700/70 bg-slate-800/70 p-6 shadow-xl shadow-black/40 transition-transform duration-500 hover:-translate-y-1">
-                    <div
-                      className="page-flip-image"
-                      style={{
-                        backgroundImage:
-                          "url('/images/zemin.avif')"
-                      }}
-                    />
+                    <div className="page-flip-image">
+                      <Image
+                        src="/images/zemin.avif"
+                        alt="Zemin ve duvar kaplama"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 60vw"
+                      />
+                    </div>
                     <div className="page-flip-scrim absolute inset-0 z-10 bg-slate-950/70" />
                     <div className="page-flip-sheet page-flip-sheet-dark" />
                     <div className="page-flip-content relative z-30">
@@ -370,12 +375,12 @@ export default function CorporatePage() {
           </section>
 
           <section
-            className={`${stackCardBase} z-30 border-slate-200 bg-white text-slate-900 shadow-black/30`}
+            className={`${stackCardBase} border-slate-200 bg-white text-slate-900 shadow-black/30`}
           >
             <div className="absolute inset-0">
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(15,23,42,0.08),_transparent_55%)]" />
-              <div className="absolute -top-24 right-16 h-72 w-72 rounded-full bg-slate-200 blur-[140px] animate-float-slow" />
-              <div className="absolute -bottom-24 left-10 h-72 w-72 rounded-full bg-slate-100 blur-[160px] animate-float-slower" />
+              <div className="absolute -top-24 right-16 h-72 w-72 rounded-full bg-slate-200 blur-[140px]" />
+              <div className="absolute -bottom-24 left-10 h-72 w-72 rounded-full bg-slate-100 blur-[160px]" />
             </div>
             <div className="absolute inset-0 texture-overlay opacity-20" />
             <div className="relative z-10 container mx-auto px-6 py-20">
@@ -416,13 +421,15 @@ export default function CorporatePage() {
                 </div>
                 <div className="lg:col-span-7 grid gap-6 md:grid-cols-2">
                   <div className="group page-flip-card rounded-2xl border border-slate-200 bg-white/80 p-6 shadow-lg">
-                    <div
-                      className="page-flip-image"
-                      style={{
-                        backgroundImage:
-                          "url('/images/mutfakkahvee.avif')"
-                      }}
-                    />
+                    <div className="page-flip-image">
+                      <Image
+                        src="/images/mutfakkahvee.avif"
+                        alt="Mutfak tezgahı"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 60vw"
+                      />
+                    </div>
                     <div className="page-flip-scrim absolute inset-0 z-10 bg-white/75" />
                     <div className="page-flip-sheet page-flip-sheet-light" />
                     <div className="page-flip-content relative z-30">
@@ -465,13 +472,15 @@ export default function CorporatePage() {
                     </div>
                   </div>
                   <div className="group page-flip-card rounded-2xl border border-slate-200 bg-white/80 p-6 shadow-lg">
-                    <div
-                      className="page-flip-image"
-                      style={{
-                        backgroundImage:
-                          "url('/images/ada1.avif')"
-                      }}
-                    />
+                    <div className="page-flip-image">
+                      <Image
+                        src="/images/ada1.avif"
+                        alt="Ada mutfak ve kahve köşesi"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 60vw"
+                      />
+                    </div>
                     <div className="page-flip-scrim absolute inset-0 z-10 bg-white/75" />
                     <div className="page-flip-sheet page-flip-sheet-light" />
                     <div className="page-flip-content relative z-30">
@@ -510,13 +519,15 @@ export default function CorporatePage() {
                     </div>
                   </div>
                   <div className="group page-flip-card rounded-2xl border border-slate-200 bg-white/80 p-6 shadow-lg">
-                    <div
-                      className="page-flip-image"
-                      style={{
-                        backgroundImage:
-                          "url('/images/banyoislakz1.avif')"
-                      }}
-                    />
+                    <div className="page-flip-image">
+                      <Image
+                        src="/images/banyoislakz1.avif"
+                        alt="Banyo ve ıslak hacim"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 60vw"
+                      />
+                    </div>
                     <div className="page-flip-scrim absolute inset-0 z-10 bg-white/75" />
                     <div className="page-flip-sheet page-flip-sheet-light" />
                     <div className="page-flip-content relative z-30">
@@ -547,13 +558,15 @@ export default function CorporatePage() {
                     </div>
                   </div>
                   <div className="group page-flip-card rounded-2xl border border-slate-200 bg-white/80 p-6 shadow-lg">
-                    <div
-                      className="page-flip-image"
-                      style={{
-                        backgroundImage:
-                          "url('/images/levye2.avif')"
-                      }}
-                    />
+                    <div className="page-flip-image">
+                      <Image
+                        src="/images/levye2.avif"
+                        alt="Entegre evye sistemleri"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 60vw"
+                      />
+                    </div>
                     <div className="page-flip-scrim absolute inset-0 z-10 bg-white/75" />
                     <div className="page-flip-sheet page-flip-sheet-light" />
                     <div className="page-flip-content relative z-30">
@@ -590,12 +603,12 @@ export default function CorporatePage() {
           </section>
 
           <section
-            className={`${stackCardBase} z-40 border-[#c8b392] bg-[#d8c7a5] text-[#3d2c1a] shadow-black/30`}
+            className={`${stackCardBase} border-[#c8b392] bg-[#d8c7a5] text-[#3d2c1a] shadow-black/30`}
           >
             <div className="absolute inset-0">
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.25),_transparent_60%)]" />
-              <div className="absolute -top-24 right-16 h-72 w-72 rounded-full bg-[#c6ad85] blur-[140px] animate-float-slow" />
-              <div className="absolute bottom-0 left-10 h-72 w-72 rounded-full bg-[#b99770] blur-[160px] animate-float-slower" />
+              <div className="absolute -top-24 right-16 h-72 w-72 rounded-full bg-[#c6ad85] blur-[140px]" />
+              <div className="absolute bottom-0 left-10 h-72 w-72 rounded-full bg-[#b99770] blur-[160px]" />
             </div>
             <div className="absolute inset-0 texture-overlay opacity-30" />
             <div className="relative z-10 container mx-auto px-6 py-20">
@@ -638,13 +651,15 @@ export default function CorporatePage() {
                 </div>
                 <div className="lg:col-span-7 grid gap-6 sm:grid-cols-2">
                   <div className="group page-flip-card rounded-2xl border border-[#c1a27a] bg-[#e7d7ba]/80 p-6 shadow-xl shadow-black/20 transition-transform duration-500 hover:-translate-y-1">
-                    <div
-                      className="page-flip-image"
-                      style={{
-                        backgroundImage:
-                          "url('/images/masa.avif')"
-                      }}
-                    />
+                    <div className="page-flip-image">
+                      <Image
+                        src="/images/masa.avif"
+                        alt="Masa ve sehpa"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 60vw"
+                      />
+                    </div>
                     <div className="page-flip-scrim absolute inset-0 z-10 bg-[#e7d7ba]/75" />
                     <div className="page-flip-sheet page-flip-sheet-warm" />
                     <div className="page-flip-content relative z-30">
@@ -674,13 +689,15 @@ export default function CorporatePage() {
                     </div>
                   </div>
                   <div className="group page-flip-card rounded-2xl border border-[#c1a27a] bg-[#e7d7ba]/80 p-6 shadow-xl shadow-black/20 transition-transform duration-500 hover:-translate-y-1">
-                    <div
-                      className="page-flip-image"
-                      style={{
-                        backgroundImage:
-                          "url('/images/dresuar.avif')"
-                      }}
-                    />
+                    <div className="page-flip-image">
+                      <Image
+                        src="/images/dresuar.avif"
+                        alt="Dresuar ve TV ünitesi"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 60vw"
+                      />
+                    </div>
                     <div className="page-flip-scrim absolute inset-0 z-10 bg-[#e7d7ba]/75" />
                     <div className="page-flip-sheet page-flip-sheet-warm" />
                     <div className="page-flip-content relative z-30">
@@ -711,13 +728,15 @@ export default function CorporatePage() {
                     </div>
                   </div>
                   <div className="group page-flip-card sm:col-span-2 rounded-2xl border border-[#c1a27a] bg-[#e7d7ba]/80 p-6 shadow-xl shadow-black/20 transition-transform duration-500 hover:-translate-y-1">
-                    <div
-                      className="page-flip-image"
-                      style={{
-                        backgroundImage:
-                          "url('/images/seperator.avif')"
-                      }}
-                    />
+                    <div className="page-flip-image">
+                      <Image
+                        src="/images/seperator.avif"
+                        alt="Seperatör bölücü paneller"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 60vw"
+                      />
+                    </div>
                     <div className="page-flip-scrim absolute inset-0 z-10 bg-[#e7d7ba]/75" />
                     <div className="page-flip-sheet page-flip-sheet-warm" />
                     <div className="page-flip-content relative z-30">
@@ -753,12 +772,12 @@ export default function CorporatePage() {
           </section>
 
           <section
-            className={`${stackCardBase} z-50 border-orange-500/30 bg-black text-white shadow-black/80`}
+            className={`${stackCardBase} border-orange-500/30 bg-black text-white shadow-black/80`}
           >
             <div className="absolute inset-0">
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,140,0,0.18),_transparent_60%)]" />
-              <div className="absolute -top-24 right-10 h-72 w-72 rounded-full bg-orange-500/25 blur-[140px] animate-float-slow" />
-              <div className="absolute bottom-0 left-10 h-72 w-72 rounded-full bg-orange-500/10 blur-[160px] animate-float-slower" />
+              <div className="absolute -top-24 right-10 h-72 w-72 rounded-full bg-orange-500/25 blur-[140px]" />
+              <div className="absolute bottom-0 left-10 h-72 w-72 rounded-full bg-orange-500/10 blur-[160px]" />
             </div>
             <div className="absolute inset-0 texture-overlay opacity-25" />
             <div className="relative z-10 container mx-auto px-6 py-20">
@@ -798,13 +817,15 @@ export default function CorporatePage() {
                 </div>
                 <div className="lg:col-span-7 grid gap-6">
                   <div className="group page-flip-card rounded-2xl border border-orange-500/30 bg-black/70 p-6 shadow-xl shadow-black/60">
-                    <div
-                      className="page-flip-image"
-                      style={{
-                        backgroundImage:
-                          "url('/images/somine3.avif')"
-                      }}
-                    />
+                    <div className="page-flip-image">
+                      <Image
+                        src="/images/somine3.avif"
+                        alt="Şömine yapımı"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 60vw"
+                      />
+                    </div>
                     <div className="page-flip-scrim absolute inset-0 z-10 bg-black/70" />
                     <div className="page-flip-sheet page-flip-sheet-dark" />
                     <div className="page-flip-content relative z-30">
@@ -842,13 +863,15 @@ export default function CorporatePage() {
                     </div>
                   </div>
                   <div className="group page-flip-card rounded-2xl border border-orange-500/30 bg-black/70 p-6 shadow-xl shadow-black/60">
-                    <div
-                      className="page-flip-image"
-                      style={{
-                        backgroundImage:
-                          "url('/images/basamakdoseme.avif')"
-                      }}
-                    />
+                    <div className="page-flip-image">
+                      <Image
+                        src="/images/basamakdoseme.avif"
+                        alt="Basamak döşeme"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 60vw"
+                      />
+                    </div>
                     <div className="page-flip-scrim absolute inset-0 z-10 bg-black/70" />
                     <div className="page-flip-sheet page-flip-sheet-dark" />
                     <div className="page-flip-content relative z-30">

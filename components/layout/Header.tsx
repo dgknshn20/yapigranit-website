@@ -3,7 +3,7 @@ import Link from "next/link";
 const navItems = [
   { href: "/kurumsal", label: "Hakkımızda" },
   { href: "/koleksiyon", label: "Koleksiyon" },
-  { href: "/projeler", label: "Projeler" },
+  { href: "/projeler", label: "Biz kimiz?" },
   { href: "/iletisim", label: "İletişim" }
 ];
 

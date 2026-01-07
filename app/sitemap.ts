@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-import { mockProducts, mockProjects } from "@/lib/sanity/client";
+import { mockProducts } from "@/lib/sanity/client";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl =
@@ -23,12 +23,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9
   }));
 
-  const projects = mockProjects.map((project) => ({
-    url: `${baseUrl}/projeler/${project.slug.current}`,
-    lastModified,
-    changeFrequency: "monthly" as const,
-    priority: 0.7
-  }));
-
-  return [...routes, ...products, ...projects];
+  return [...routes, ...products];
 }
