@@ -1,11 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import { useRef, useState, type PointerEvent } from "react";
+import { useRef, useState, type PointerEvent, type ReactElement } from "react";
 
 type Brand = {
   name: string;
-  icon: JSX.Element;
+  icon: ReactElement;
 };
 
 type Project = {
