@@ -6,7 +6,8 @@ import { useEffect, useMemo, useState } from "react";
 type CollectionItem = {
   id: string;
   name: string;
-  brand: string;
+  brand?: string;
+  category?: string;
   color: string;
   image: string;
   desc?: string;
@@ -49,6 +50,11 @@ const uniqueInOrder = (values: string[]) => {
   });
   return result;
 };
+
+const getBrandLabel = (item: CollectionItem) =>
+  item.brand?.trim() || item.category?.trim() || "Diğer";
+
+const getColorLabel = (item: CollectionItem) => item.color?.trim() ?? "";
 
 function IconSearch({ className }: { className?: string }) {
   return (
@@ -149,10 +155,10 @@ export default function CollectionGridSection({ items }: { items: CollectionItem
 
   const filterOptions = useMemo(() => {
     const brands = sortOptions(
-      Array.from(new Set(items.map((item) => item.brand))),
+      Array.from(new Set(items.map((item) => getBrandLabel(item)).filter(Boolean))),
       preferredOrder.brand
     );
-    const colors = uniqueInOrder(items.map((item) => item.color).filter(Boolean));
+    const colors = uniqueInOrder(items.map((item) => getColorLabel(item)).filter(Boolean));
 
     return {
       brand: brands,
@@ -177,12 +183,14 @@ export default function CollectionGridSection({ items }: { items: CollectionItem
   const filteredItems = useMemo(() => {
     const term = searchTerm.trim().toLowerCase();
     return items.filter((item) => {
+      const itemBrand = getBrandLabel(item);
+      const itemColor = getColorLabel(item);
       const brandMatch =
         activeFilters.brand.length === 0 ||
-        activeFilters.brand.includes(item.brand);
+        activeFilters.brand.includes(itemBrand);
       const colorMatch =
         activeFilters.color.length === 0 ||
-        activeFilters.color.includes(item.color);
+        activeFilters.color.includes(itemColor);
       const searchMatch =
         term.length === 0 ||
         item.name.toLowerCase().includes(term);
@@ -353,7 +361,10 @@ export default function CollectionGridSection({ items }: { items: CollectionItem
                 </div>
               ) : (
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                  {paginatedItems.map((item) => (
+                  {paginatedItems.map((item) => {
+                    const itemBrand = getBrandLabel(item);
+                    const itemColor = getColorLabel(item);
+                    return (
                     <div key={item.id} className="group relative">
                       <div className="aspect-[4/5] overflow-hidden border border-white/10 bg-black/60 relative">
                         <Image
@@ -372,12 +383,12 @@ export default function CollectionGridSection({ items }: { items: CollectionItem
                               {item.name}
                             </h3>
                             <p className="text-xs uppercase tracking-[0.3em] text-white/50">
-                              {item.brand}
-                              {item.color ? ` — ${item.color}` : ""}
+                              {itemBrand}
+                              {itemColor ? ` — ${itemColor}` : ""}
                             </p>
                           </div>
                           <span className="text-gold text-[10px] uppercase tracking-[0.3em] border border-gold/30 px-2 py-1">
-                            {item.brand}
+                            {itemBrand}
                           </span>
                         </div>
                         {item.desc && (
@@ -387,7 +398,8 @@ export default function CollectionGridSection({ items }: { items: CollectionItem
                         )}
                       </div>
                     </div>
-                  ))}
+                      );
+                  })}
                 </div>
               )}
 
