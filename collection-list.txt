@@ -1,0 +1,51 @@
+Marka | Taş Adı | Ürün görsel linki (veya /images/...) | Açıklama
+Dekton	|	Domoos	|	Siyah	|	https://www.dektontr.com/upload/domoos.jpg	|	Mat bitişli, derin ve saf bir grafit siyahı. Minimalist ve modern tasarımlar için uygundur.
+Dekton	|	Bromo	|	Antrasit	|	https://www.dektontr.com/upload/bromo.jpg	|	Koyu gri, arduvaz (slate) taşının doğal dokusuna sahip, organik görünümlü bir yüzey.
+Dekton	|	Kira	|	Kahverengi	|	https://www.dektontr.com/upload/kira.jpg	|	Toprak tonları üzerine ince gri damarların yayıldığı, doğal taştan ilham alan sıcak bir model.
+Dekton	|	Kelya	|	Kahverengi	|	https://www.dektontr.com/upload/kelya.jpg	|	Koyu zemin üzerine soluk damarların bulunduğu, İspanyol mermerlerinden esinlenen zarif bir yapı.
+Dekton	|	Kreta	|	Gri	|	https://www.dektontr.com/upload/kreta.jpg	|	Beton görünümlü, mat ve endüstriyel tasarıma uygun, sakin bir gri tonu.
+Dekton	|	Laurent	|	Siyah	|	https://www.dektontr.com/upload/laurent.jpg	|	Koyu kahverengi/siyah zemin üzerine dikkat çekici altın sarısı damarların geçtiği lüks bir görünüm.
+Dekton	|	Somnia	|	Siyah	|	https://www.dektontr.com/upload/somnia.jpg	|	Oksitlenmiş metal ve koyu ahşap tonlarını andıran, ızgara desenli derin bir siyah.
+Dekton	|	Argentium	|	Gri	|	https://www.dektontr.com/upload/argentium.jpg	|	Gümüşi gri tonlarında, metalik yansımaları andıran mat bir yüzey.
+Dekton	|	Reverie	|	Beyaz	|	https://www.dektontr.com/upload/reverie.jpg	|	Klasik mermer dokusunu modern bir dokunuşla sunan, pas rengi damarlı beyaz zemin.
+Dekton	|	Entzo	|	Beyaz	|	https://www.dektontr.com/upload/entzo1.jpg	|	Calacatta Gold mermerinden ilham alan, beyaz zemin üzerine kalın altın/kahve damarlı model.
+Dekton	|	Morpheus	|	Beyaz	|	https://www.dektontr.com/upload/morpheus.jpg	|	Kadifemsi bir dokuya sahip, yumuşak beyaz zemin üzerine hafif damarlı Onirika koleksiyonu parçası.
+Dekton	|	Aura	|	Beyaz	|	https://www.dektontr.com/upload/aura22.jpg	|	Calacatta ve Carrara mermerlerini andıran, damar takibi (bookmatch) yapılabilen sanatsal yüzey.
+Dekton	|	Natura	|	Beyaz	|	https://www.dektontr.com/upload/natura.jpg	|	Parlak bitişli, beyaz zemin üzerine gri mermer damarlarının bulunduğu klasik ve şık bir model.
+Dekton	|	Trance	|	Gri / Mavi	|	https://www.dektontr.com/upload/trance.jpg	|	Oksitlenmiş kızıla çalan altın ve mavimsi gri damarların, beyazımsı gri bir zeminde dans ettiği cesur bir tasarım.
+Dekton	|	Lucid	|	Krem / Beyaz	|	https://www.dektontr.com/upload/lucid.jpg	|	Ahşap, kireçtaşı ve betonun karışımından oluşan, rüya gibi yumuşak bir krem tonu.
+Dekton	|	Layla	|	Beyaz	|	https://www.dektontr.com/upload/neolith_layla.jpg	|	Koyu gri ışıltılı damarların bulunduğu, şık ve sakin bir beyaz/gri karışımı.
+Dekton	|	Sasea	|	Krem / Bej	|	https://www.dektontr.com/upload/sasea.jpg	|	Safran ve kireç taşı tonlarından ilham alan, dalgalı desenlere sahip sıcak bir krem.
+Dekton	|	Sterling	|	Bej	|	https://www.igscountertops.com/wp-content/uploads/Sterling-Detail-Close-Up.jpg	|	Traverten taşına modern bir yorum getiren, hafif benekli ve doğal taş görünümlü yüzey.
+Dekton	|	Albarium	|	Bej	|	https://www.dektontr.com/upload/albarium22.jpg	|	Roma sıvasını andıran, pudra dokulu, çok zarif ve aydınlık bir beyaz/bej tonu.
+Dekton	|	Nilium	|	Beyaz	|	https://www.dektontr.com/upload/nilium1.jpg	|	Metalik yansımaların beyaz zemin üzerinde eridiği, endüstriyel ama aydınlık bir tasarım.
+Dekton	|	Orix	|	Gri	|	https://media.architonic.com/m-on/3103180/product/1528066/cosentino_dekton-orix_2d4b302a.jpeg?format=webp&quality=75	|	Aşınmış çimento ve oksitlenmiş metal görünümü sunan endüstriyel gri.
+Dekton	|	Feroe	|	Koyu Yeşil	|	https://imperior-stone.ru/image/cache/catalog/boss/stones/dekton/36_feroe/36_feroe_boss-600x400.jpg	|	Derin ve mat bir orman yeşili. Sofistike ve doğadan ilham alan bir renk.
+Dekton	|	Liquid Sky	|	Beyaz	|	https://www.dektontr.com/upload/liquid_sky-jpg1.jpg	|	Bulutların hareketini andıran, beyaz zemin üzerine gri dairesel desenlerin olduğu akışkan tasarım.
+Dekton	|	Ananke	|	Siyah	|	https://www.marble.co.uk/wp-content/uploads/2017/07/Dekton-Anake-Featured-Images.jpg	|	Ahşap dokusunu andıran siyah ve mat bir yüzey.
+Dekton	|	Micron	|	Antrasit	|	https://www.dektontr.com/upload/micron.jpg	|	İnce granüllü yapısıyla sade ve derin bir antrasit/siyah tonu.
+Infinity	|	Rosso Domus	|	Bordo / Kızıl	|	https://www.infinitysurfaces.it/wp-content/uploads/2025/09/MB26-Rosso-Domus-Minimale.webp	|	Nadir bulunan kırmızı mermer görünümü. Lüks ve dramatik bir atmosfer yaratır.
+Infinity	|	Pulpis Brown	|	Kahverengi	|	https://www.infinitysurfaces.it/wp-content/uploads/2025/08/MB08-PulpisBrown-Minimale.webp	|	Klasik Pulpis mermerinin tütün ve toprak tonlarını yansıtan, zarif beyaz damarlı yüzey.
+Infinity	|	Ocean Blue	|	Mavi	|	https://www.infinitysurfaces.it/wp-content/uploads/2025/09/OC03-OceanBlue-Minimale.webp	|	Okyanus derinliklerini andıran, mavi ve gri tonların karışımı egzotik bir görünüm.
+Infinity	|	Santos	|	Siyah / Antrasit	|	https://www.infinitysurfaces.it/wp-content/uploads/2025/09/OC06-Santos-Minimale.webp	|	İnce beyaz damarların kestiği, ağsı yapıya sahip koyu gri/siyah bir taş görünümü.
+Florim 	|	Marble Yamuna	|	Kahverengi	|	https://florim-cdn.thron.com/delivery/public/image/florim/441da9bd-a28f-4a04-8a02-aff790eb1ac1/rf8vac/std/1080x0/768762_yamuna.glossy.jpg?format=webp&quality=100	|	Altın ve bronz tonlarının hakim olduğu, sıcak ve yoğun desenli bir mermer görünümü.
+Florim 	|	Mountain Peak	|	kahverengi	|	https://florim-cdn.thron.com/delivery/public/image/florim/25dbf426-35de-432d-8b2c-43fb5d48f8dc/rf8vac/std/1080x0/784868.jpg?format=webp&quality=100	|	Dağ kayalıklarını andıran, doğal ve güçlü bir toprak tonu dokusu.
+Florim 	|	Tundra	|	Kahverengi	|	https://florim-cdn.thron.com/delivery/public/image/florim/935c597d-9f4d-4c1c-97b8-37b05478c627/rf8vac/std/1080x0/777572_01.tundra.glossy.jpg?format=webp&quality=100	|	Gri ve kahverengi geçişlerinin olduğu, doğal Tundra mermerinin porselen yorumu.
+Florim 	|	Eternal Gold	|	Beyaz	|	https://florim-cdn.thron.com/delivery/public/image/florim/07f1badb-5c30-40ea-801a-088a4274fbe2/rf8vac/std/1080x0/768760_eternal.gold.A.glossy.jpg?format=webp&quality=100	|	Beyaz zemin üzerine zarif altın sarısı damarların geçtiği, zamansız bir mermer deseni.
+Atlas Plan	|	Exotic Wave	|	Yeşil	|	https://storage.atlasplan.com/public/assets/large-slabs/exotic-wave/162x324-1-marble-effect-bar-counter-porcelain-stoneware-atlas-plan.webp	|	Tropikal suları andıran, yeşil ve mavi dalgaların karıştığı hareketli ve egzotik bir desen.
+Atlas Plan	|	Boost Natural Ecru	|	Ekru	|	https://storage.atlasplan.com/public/assets/large-slabs/boost-natural-ecru/162x324-1-atlas-plan-boost-natural-ecru-floor-porcelain-stoneware-slab-clamp_960_1920_50.webp	|	Ham toprak görünümüne sahip, sakin, mat ve doğal bir bej/ekru tonu.
+Laminam	|	Noir Desir	|	Siyah	|	https://laminamtr.com/wp-content/uploads/2020/12/I-Naturali-Noir-Desir-Lucidato.jpg	|	Siyah zemin üzerine altın ve fildişi rengi damarların bulunduğu çok popüler, asil bir model.
+Laminam	|	Oxide Moro	|	Corten	|	https://laminamtr.com/wp-content/uploads/2020/12/Oxide-Moro.jpg	|	Oksitlenmiş metal (paslı demir) görünümü veren, ışığa göre değişen endüstriyel kahve tonu.
+Materia	|	Emerald Green	|	Yeşil	|	https://www.materiaslab.com/public/collezioneCover/198-651-Emerald-Green.jpg	|	Zümrüt yeşili zemin üzerine beyaz ve kahve kırılmaların olduğu çarpıcı bir mermer deseni.
+Materia	|	Antartide	|	Beyaz	|	https://www.materiaslab.com/public/collezioneCover/398-143-Antartide-FullVein3D.jpg?timestamp=1767719592025	|	Buzullar kadar beyaz, minimal ve ferah bir görünüm sağlayan saf yüzey.
+NuovoCorso	|	Green Majestic	|	Yeşil	|	https://nuovocorso.it/wp-content/uploads/2024/07/GREEN-MAJESTIC_1-scaled.jpg	|	Yoğun ve koyu yeşil tonların hakim olduğu, saray mermerlerini andıran asil bir duruş.
+NuovoCorso	|	Extreme	|	Antrasit	|	https://cdn.imweb.me/upload/S20230608a91feca5cf11d/b03a678f470e9.jpg	|	Metalik ve beton karışımı hissi veren, son derece sert görünümlü koyu gri/antrasit.
+NuovoCorso	|	Orenge Sapphire	|	Turuncu	|	https://nuovocorso.it/wp-content/uploads/2024/07/ORANGE-SAPPHIRE_1-scaled.jpg	|	Onyx (oniks) taşının ışık geçiren yapısını andıran, turuncu ve bal rengi geçişli canlı model.
+NuovoCorso	|	Kenya	|	Siyah	|	https://nuovocorso.it/wp-content/uploads/2024/07/KENYA_1-scaled.jpg	|	Siyah zemin üzerine yatay şeritler halinde giden, ağaç kabuğu veya zebra desenini andıran yapı.
+Anatolia	|	Gemma Bronze	|	Kahverengi	|	https://optimise2.assets-servd.host/powerful-koala/production/images/GemmaBronze_Landscape.jpg?w=1920&h=1066&auto=compress%2Cformat&fit=crop&dm=1744829387&s=477e9809e5b916116a2817c8e7960422	|	Bronz ve kahve tonlarının iç içe geçtiği, metalik ışıltılar barındıran zengin bir yüzey.
+Anatolia	|	Verdi Alpi	|	Yeşil	|	https://optimise2.assets-servd.host/powerful-koala/production/images/VerdiAlpi_Landscape.jpg?w=1920&h=1066&auto=compress%2Cformat&fit=crop&dm=1744834572&s=8899b05f42db98fb8becb7539616c4d9	|	Koyu yeşil zemin üzerine açık yeşil ve beyaz damarların olduğu klasik İtalyan mermeri görünümü.
+Anatolia	|	Calacatta Viola	|	Beyaz	|	https://optimise2.assets-servd.host/powerful-koala/production/images/CalacattaViola_Landscape.jpg?w=1920&h=1066&auto=compress%2Cformat&fit=crop&dm=1744894047&s=c19e6bae3df2510c2097075c4f9990c1	|	Beyaz zemin üzerine, mor ve bordo renkteki ikonik damarlarıyla bilinen çok trend bir mermer deseni.
+Anatolia	|	Panda	|	Beyaz	|	https://optimise2.assets-servd.host/powerful-koala/production/images/Panda_Landscape.jpg?w=1920&h=1066&auto=compress%2Cformat&fit=crop&dm=1744836586&s=dae2a416bf7ca7459492a261ce413a06	|	Beyaz zemin üzerine kalın ve kontrast siyah çizgilerin olduğu, panda mermeri replikası.
+T-One	|	Calacatta Gold	|	Beyaz	|	https://www.ozatagrup.com.tr/uploads/160x320-calacatta-gold-f1b.min.jpg	|	Beyaz üzerine altın sarısı ve gri damarların uyumu. Mutfaklarda klasik bir tercih.
+T-One	|	Marmo Matello	|	Gri	|	https://www.ozatagrup.com.tr/uploads/marmo-metallo-f1-160x320.min.jpg	|	Gri mermer dokusunun mat ve modern yorumu. Beton efektine yakın bir doğallık sunar.
+T-One	|	Terra Rossa	|	Kızıl	|	https://www.yapimarka.com/resimler/t-one-terra-rossa-12-mm-mat-porselen-tezgah-162x323-760.jpg.webp	|	Kiremit rengi, terrakotta ve toprak tonlarını barındıran, Akdeniz sıcaklığını yansıtan bir renk.
