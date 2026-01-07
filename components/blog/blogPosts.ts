@@ -18,7 +18,7 @@ export const blogPosts: BlogPost[] = [
     description:
       "Neo Deco akımı, sessiz lüks ve hiper-gerçekçi porselen yüzeylerle buluşuyor.",
     image:
-      "https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2000&auto=format&fit=crop",
+      "https://i.pinimg.com/1200x/bf/5a/e4/bf5ae48388c40b355a64559cb8f750ad.jpg",
     readTime: "7 dk okuma",
     href: "/koleksiyon/rehber/neo-deco-mermer-gorunumlu-porselen"
   },
@@ -29,8 +29,7 @@ export const blogPosts: BlogPost[] = [
     subtitle: "Dekoratif Ürün Seçkisi",
     description:
       "Atölye üretiminde öne çıkan dekoratif ürün ve hediye konseptleri.",
-    image:
-      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=2000&auto=format&fit=crop",
+    image: "/images/m1.png",
     readTime: "8 dk okuma",
     href: "/koleksiyon/rehber/atolye-urun-fikirleri"
   },

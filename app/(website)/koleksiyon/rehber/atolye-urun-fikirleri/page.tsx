@@ -10,7 +10,7 @@ export default function AtolyeUrunFikirleriPage() {
     <header className="relative h-[90vh] flex items-end justify-center pb-20 overflow-hidden">
         {/* Arkaplan Görseli */}
         <div className="absolute inset-0 z-0">
-            <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=2000&auto=format&fit=crop" alt="Workshop Table Porcelain Marble" className="w-full h-full object-cover brightness-75" />
+            <img src="/images/m1.png" alt="Workshop Table Porcelain Marble" className="w-full h-full object-cover brightness-75" />
         </div>
         
         <div className="relative z-10 container mx-auto px-6 text-white">
@@ -46,11 +46,11 @@ export default function AtolyeUrunFikirleriPage() {
             <div className="md:col-span-5 relative">
                 {/* Moodboard Görsel Yerleşimi */}
                 <div className="relative z-10 image-hover-zoom shadow-2xl rounded-sm">
-                    <img src="https://images.unsplash.com/photo-1600607687644-c7f32b393597?q=80&w=800&auto=format&fit=crop" alt="Large Porcelain Wall Panel" className="w-full aspect-[3/4] object-cover" />
+                    <img src="https://i.pinimg.com/1200x/f7/9f/a2/f79fa251a7047619c52b16de8c1ccc81.jpg" alt="Large Porcelain Wall Panel" className="w-full aspect-[3/4] object-cover" />
                     <span className="absolute bottom-4 left-4 text-xs text-white bg-black/50 px-2 py-1">Şekil 1: TV Ünitesi Arkası</span>
                 </div>
                 <div className="absolute -bottom-10 -right-10 w-2/3 z-20 image-hover-zoom shadow-xl rounded-sm border-4 border-[#F9F8F6]">
-                    <img src="https://images.unsplash.com/photo-1584622050111-993a426fbf0a?q=80&w=600&auto=format&fit=crop" alt="Thin Slab Detail" className="w-full aspect-square object-cover" />
+                    <img src="https://i.pinimg.com/1200x/4b/e3/4e/4be34ee34ecb0ca7297c19c97358f745.jpg" alt="Thin Slab Detail" className="w-full aspect-square object-cover" />
                 </div>
             </div>
             
@@ -126,7 +126,7 @@ export default function AtolyeUrunFikirleriPage() {
 
             <div className="flex flex-col md:flex-row gap-12 items-center zigzag-content">
                 <div className="flex-1 image-hover-zoom">
-                    <img src="https://images.unsplash.com/photo-1596911679051-78921869e54d?q=80&w=800&auto=format&fit=crop" alt="Marble Accessories" className="w-full rounded shadow-lg" />
+                    <img src="https://i.pinimg.com/1200x/8b/4c/4c/8b4c4c3d240117b37ee5e1b93e591a48.jpg" alt="Marble Accessories" className="w-full rounded shadow-lg" />
                 </div>
                 <div className="flex-1">
                     <h3 className="text-3xl serif-font mb-4 text-stone-800">Küçük Dokunuşlar, Büyük Etki</h3>
@@ -168,7 +168,7 @@ export default function AtolyeUrunFikirleriPage() {
         <section className="mb-32 relative">
             <div className="bg-stone-900 text-white rounded-lg overflow-hidden relative">
                 <div className="absolute inset-0 opacity-30">
-                    <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1600&auto=format&fit=crop" alt="Industrial Cutting Tools" className="w-full h-full object-cover" />
+                    <img src="/images/m2.jpg" alt="Industrial Cutting Tools" className="w-full h-full object-cover" />
                 </div>
                 
                 <div className="relative z-10 p-10 md:p-20">

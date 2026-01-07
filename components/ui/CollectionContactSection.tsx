@@ -10,7 +10,7 @@ type FormState = {
   phone: string;
 };
 
-const stoneOptions = ["Beyaz Mermer", "Siyah Granit", "Gri Porselen", "Kararsızım"];
+const stoneOptions = ["Mermer", "Granit", "Porselen", "Kuvars", "Kararsızım"];
 
 function IconArrowRight() {
   return (

@@ -1,7 +1,7 @@
 Blog Başlığı | Kullanıldığı Yer | Görsel Linki | Görsel Boyutu(4:3, 9:16 vb.)
 --- | --- | --- | ---
-2026 Trend: Neo Deco & Mermer Görünümlü Porselen | Blog kartı (Blog & Vizyon/Related) | https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2000&auto=format&fit=crop | Bilinmiyor
-Atölye Ürün Fikirleri: Mermer & Porselen | Blog kartı (Blog & Vizyon/Related) | https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=2000&auto=format&fit=crop | Bilinmiyor
+2026 Trend: Neo Deco & Mermer Görünümlü Porselen | Blog kartı (Blog & Vizyon/Related) | https://i.pinimg.com/1200x/bf/5a/e4/bf5ae48388c40b355a64559cb8f750ad.jpg | Bilinmiyor
+Atölye Ürün Fikirleri: Mermer & Porselen | Blog kartı (Blog & Vizyon/Related) | /images/m1.png | Bilinmiyor
 Mermer ve Porselen Kombinasyonuyla Tasarım Fikirleri | Blog kartı (Blog & Vizyon/Related) | https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=2000&auto=format&fit=crop | Bilinmiyor
 Bookmatch: Doğanın Senfonisi | Blog kartı (Blog & Vizyon/Related) | https://images.unsplash.com/photo-1618221381711-42ca8ab6e908?q=80&w=2000&auto=format&fit=crop | Bilinmiyor
 Mermer ve Porselenin Mimaride Kullanımı | Blog kartı (Blog & Vizyon/Related) | https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2000&auto=format&fit=crop | Bilinmiyor
@@ -14,11 +14,11 @@ Mermer vs Porselen | Blog kartı (Blog & Vizyon/Related) | https://biesso.com/wp
 Yüzey Bakım Rehberi | Blog kartı (Blog & Vizyon/Related) | https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2000&auto=format&fit=crop | Bilinmiyor
 Mermer Atölyesinde Sürdürülebilir Üretim ve Atık Yönetimi | Blog kartı (Blog & Vizyon/Related) | https://images.unsplash.com/photo-1565008447742-97f6f38c985c?q=80&w=2000&auto=format&fit=crop | Bilinmiyor
 Mermer & Porselen Ürünlerde Pazarlama Stratejileri | Blog kartı (Blog & Vizyon/Related) | https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=2000&auto=format&fit=crop | Bilinmiyor
-Atölye Ürün Fikirleri: Mermer & Porselen | Blog sayfası hero | https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=2000&auto=format&fit=crop | Bilinmiyor
-Atölye Ürün Fikirleri: Mermer & Porselen | Blog sayfası içerik | https://images.unsplash.com/photo-1600607687644-c7f32b393597?q=80&w=800&auto=format&fit=crop | 3:4
-Atölye Ürün Fikirleri: Mermer & Porselen | Blog sayfası içerik | https://images.unsplash.com/photo-1584622050111-993a426fbf0a?q=80&w=600&auto=format&fit=crop | 1:1
-Atölye Ürün Fikirleri: Mermer & Porselen | Blog sayfası içerik | https://images.unsplash.com/photo-1596911679051-78921869e54d?q=80&w=800&auto=format&fit=crop | Bilinmiyor
-Atölye Ürün Fikirleri: Mermer & Porselen | Blog sayfası içerik | https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1600&auto=format&fit=crop | Bilinmiyor
+Atölye Ürün Fikirleri: Mermer & Porselen | Blog sayfası hero | /images/m1.png | Bilinmiyor
+Atölye Ürün Fikirleri: Mermer & Porselen | Blog sayfası içerik | https://i.pinimg.com/1200x/f7/9f/a2/f79fa251a7047619c52b16de8c1ccc81.jpg | 3:4
+Atölye Ürün Fikirleri: Mermer & Porselen | Blog sayfası içerik | https://i.pinimg.com/1200x/4b/e3/4e/4be34ee34ecb0ca7297c19c97358f745.jpg | 1:1
+Atölye Ürün Fikirleri: Mermer & Porselen | Blog sayfası içerik | https://i.pinimg.com/1200x/8b/4c/4c/8b4c4c3d240117b37ee5e1b93e591a48.jpg | Bilinmiyor
+Atölye Ürün Fikirleri: Mermer & Porselen | Blog sayfası içerik | /images/m2.jpg | Bilinmiyor
 Bookmatch: Doğanın Senfonisi | Blog sayfası hero | https://images.unsplash.com/photo-1618221381711-42ca8ab6e908?q=80&w=2000&auto=format&fit=crop | Bilinmiyor
 Bookmatch: Doğanın Senfonisi | Blog sayfası içerik | https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop | 3:4
 Bookmatch: Doğanın Senfonisi | Blog sayfası içerik | https://images.unsplash.com/photo-1599693988698-090c2d33458c?q=80&w=600&auto=format&fit=crop | 1:1
@@ -68,12 +68,12 @@ Müşteri Taleplerine Göre Özel Tasarım Süreçleri | Blog sayfası içerik |
 Müşteri Taleplerine Göre Özel Tasarım Süreçleri | Blog sayfası içerik | https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=600&auto=format&fit=crop | 1:1
 Müşteri Taleplerine Göre Özel Tasarım Süreçleri | Blog sayfası içerik | https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1600&auto=format&fit=crop | Bilinmiyor
 Müşteri Taleplerine Göre Özel Tasarım Süreçleri | Blog sayfası içerik | https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=800&auto=format&fit=crop | Bilinmiyor
-2026 Trend: Neo Deco & Mermer Görünümlü Porselen | Blog sayfası hero | https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2000&auto=format&fit=crop | Bilinmiyor
-2026 Trend: Neo Deco & Mermer Görünümlü Porselen | Blog sayfası içerik | https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop | 3:4
-2026 Trend: Neo Deco & Mermer Görünümlü Porselen | Blog sayfası içerik | https://images.unsplash.com/photo-1596464522437-1422d3b253b8?q=80&w=600&auto=format&fit=crop | 1:1
-2026 Trend: Neo Deco & Mermer Görünümlü Porselen | Blog sayfası içerik | https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?q=80&w=1600&auto=format&fit=crop | Bilinmiyor
-2026 Trend: Neo Deco & Mermer Görünümlü Porselen | Blog sayfası içerik | https://images.unsplash.com/photo-1598547434771-331620c379a1?q=80&w=600&auto=format&fit=crop | Bilinmiyor
-2026 Trend: Neo Deco & Mermer Görünümlü Porselen | Blog sayfası içerik | https://images.unsplash.com/photo-1549488497-6cb56cb45d2e?q=80&w=800&auto=format&fit=crop | Bilinmiyor
+2026 Trend: Neo Deco & Mermer Görünümlü Porselen | Blog sayfası hero | https://i.pinimg.com/1200x/bf/5a/e4/bf5ae48388c40b355a64559cb8f750ad.jpg | Bilinmiyor
+2026 Trend: Neo Deco & Mermer Görünümlü Porselen | Blog sayfası içerik | https://i.pinimg.com/1200x/89/b4/c8/89b4c869be204a822d4eb787e5f4d2fe.jpg | 3:4
+2026 Trend: Neo Deco & Mermer Görünümlü Porselen | Blog sayfası içerik | https://i.pinimg.com/736x/84/d8/c7/84d8c71485b8fccf59da21415807ae35.jpg | 1:1
+2026 Trend: Neo Deco & Mermer Görünümlü Porselen | Blog sayfası içerik | https://i.pinimg.com/1200x/dc/d7/ca/dcd7cadf10fb0a66289094ecb7777c91.jpg | Bilinmiyor
+2026 Trend: Neo Deco & Mermer Görünümlü Porselen | Blog sayfası içerik | https://i.pinimg.com/1200x/01/d2/3c/01d23cd074e933d6b9d8b5a617443f08.jpg | Bilinmiyor
+2026 Trend: Neo Deco & Mermer Görünümlü Porselen | Blog sayfası içerik | https://i.pinimg.com/736x/63/a2/44/63a24482bc46074f93efa6744167c98c.jpg | Bilinmiyor
 Porselen Desenleme Sanatı ve Teknikleri | Blog sayfası hero | https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?q=80&w=2000&auto=format&fit=crop | Bilinmiyor
 Porselen Desenleme Sanatı ve Teknikleri | Blog sayfası içerik | https://images.unsplash.com/photo-1596911679051-78921869e54d?q=80&w=800&auto=format&fit=crop | 3:4
 Porselen Desenleme Sanatı ve Teknikleri | Blog sayfası içerik | https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=600&auto=format&fit=crop | 1:1

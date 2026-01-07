@@ -35,7 +35,7 @@ export default function NeoDecoTrendPage() {
       <header className="relative h-[90vh] flex items-end justify-center pb-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2000&auto=format&fit=crop"
+            src="https://i.pinimg.com/1200x/bf/5a/e4/bf5ae48388c40b355a64559cb8f750ad.jpg"
             alt="Luxury Marble Interior"
             className="w-full h-full object-cover brightness-75"
           />
@@ -81,14 +81,14 @@ export default function NeoDecoTrendPage() {
           <div className="md:col-span-5 relative">
             <div className="relative z-10 image-hover-zoom shadow-2xl rounded-sm">
               <img
-                src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop"
+                src="https://i.pinimg.com/1200x/89/b4/c8/89b4c869be204a822d4eb787e5f4d2fe.jpg"
                 alt="Neo Deco Interior"
                 className="w-full aspect-[3/4] object-cover"
               />
             </div>
             <div className="absolute -bottom-10 -right-10 w-2/3 z-20 image-hover-zoom shadow-xl rounded-sm border-4 border-[#F9F8F6]">
               <img
-                src="https://images.unsplash.com/photo-1596464522437-1422d3b253b8?q=80&w=600&auto=format&fit=crop"
+                src="https://i.pinimg.com/736x/84/d8/c7/84d8c71485b8fccf59da21415807ae35.jpg"
                 alt="Red Marble Texture"
                 className="w-full aspect-square object-cover"
               />
@@ -144,7 +144,7 @@ export default function NeoDecoTrendPage() {
           <div className="bg-stone-900 text-white rounded-lg overflow-hidden relative">
             <div className="absolute inset-0 opacity-40">
               <img
-                src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?q=80&w=1600&auto=format&fit=crop"
+                src="https://i.pinimg.com/1200x/dc/d7/ca/dcd7cadf10fb0a66289094ecb7777c91.jpg"
                 alt="Dark Porcelain Texture"
                 className="w-full h-full object-cover"
               />
@@ -189,7 +189,7 @@ export default function NeoDecoTrendPage() {
                 />
                 <div className="relative rounded-full overflow-hidden border-4 border-white/10 w-64 h-64 md:w-80 md:h-80 mx-auto bg-stone-800 flex items-center justify-center">
                   <img
-                    src="https://images.unsplash.com/photo-1598547434771-331620c379a1?q=80&w=600&auto=format&fit=crop"
+                    src="https://i.pinimg.com/1200x/01/d2/3c/01d23cd074e933d6b9d8b5a617443f08.jpg"
                     alt="Macro Stone Detail"
                     className="w-full h-full object-cover transition duration-700 group-hover:scale-125"
                   />
@@ -354,7 +354,7 @@ export default function NeoDecoTrendPage() {
           <div className="relative">
             <div className="rounded-full overflow-hidden w-full aspect-square relative z-10 border-8 border-white shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1549488497-6cb56cb45d2e?q=80&w=800&auto=format&fit=crop"
+                src="https://i.pinimg.com/736x/63/a2/44/63a24482bc46074f93efa6744167c98c.jpg"
                 alt="Sustainable Stone Art"
                 className="w-full h-full object-cover hover:scale-110 transition duration-700"
               />
