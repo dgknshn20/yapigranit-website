@@ -161,9 +161,11 @@ const materials: Material[] = [
     image:
       "/images/porcelen.avif",
     features: [
-      { name: "Isı Direnci", value: 100, icon: <IconThermometer /> },
+      { name: "Isı direnci", value: 100, icon: <IconThermometer /> },
       { name: "Çizilmezlik", value: 95, icon: <IconShield /> },
-      { name: "Leke Tutmaz", value: 100, icon: <IconDroplet /> }
+      { name: "Leke Tutmaz", value: 100, icon: <IconDroplet /> },
+      { name: "Kimyasal Direnci", value: 90, icon: <IconInfo /> },
+      { name: "Hijyen", value: 100, icon: <IconCheck /> }
     ],
     pros: [
       "Ateşe ve UV ışınlarına tam direnç",
@@ -182,9 +184,11 @@ const materials: Material[] = [
     image:
       "/images/dogaltas.avif",
     features: [
-      { name: "Benzersizlik", value: 100, icon: <IconGem /> },
-      { name: "Isı Direnci", value: 85, icon: <IconThermometer /> },
-      { name: "Doğallık", value: 100, icon: <IconInfo /> }
+      { name: "Isı direnci", value: 85, icon: <IconThermometer /> },
+      { name: "Çizilmezlik", value: 80, icon: <IconShield /> },
+      { name: "Leke Tutmaz", value: 75, icon: <IconDroplet /> },
+      { name: "Kimyasal Direnci", value: 50, icon: <IconInfo /> },
+      { name: "Hijyen", value: 80, icon: <IconCheck /> }
     ],
     pros: [
       "Her plaka bir sanat eseri",
@@ -203,9 +207,11 @@ const materials: Material[] = [
     image:
       "/images/kuvars.avif",
     features: [
-      { name: "Hijyen", value: 100, icon: <IconDroplet /> },
-      { name: "Renk Tutarlılığı", value: 90, icon: <IconCheck /> },
-      { name: "Esneklik", value: 80, icon: <IconShield /> }
+      { name: "Isı direnci", value: 60, icon: <IconThermometer /> },
+      { name: "Çizilmezlik", value: 80, icon: <IconShield /> },
+      { name: "Leke Tutmaz", value: 20, icon: <IconDroplet /> },
+      { name: "Kimyasal Direnci", value: 50, icon: <IconInfo /> },
+      { name: "Hijyen", value: 90, icon: <IconCheck /> }
     ],
     pros: [
       "Gözeneksiz hijyenik yüzey",
@@ -338,30 +344,23 @@ export default function StoneGuideSection() {
                       ))}
                     </div>
 
-                    <div
-                      className={`mt-4 space-y-2 transition-all duration-500 overflow-hidden ${
-                        isActive
-                          ? "max-h-32 opacity-100"
-                          : "max-h-0 opacity-0 md:max-h-32 md:opacity-100"
-                      }`}
-                    >
-                      {material.pros.slice(0, 2).map((pro) => (
-                        <div
-                          key={pro}
-                          className="flex items-start gap-2 text-[11px] md:text-xs text-gray-400"
-                        >
-                          <span className="mt-1 h-[4px] w-[4px] rounded-full bg-gold" />
-                          {pro}
-                        </div>
-                      ))}
-                    </div>
-
-                    <div className="pt-4 mt-auto border-t border-white/10 flex items-center justify-between">
-                      <div className="text-[10px] text-white/40 uppercase tracking-[0.2em]">
-                        Öneri:{" "}
-                        <span className="text-white/70 block truncate max-w-[140px]">
-                          {material.bestFor}
-                        </span>
+                    <div className="pt-4 mt-auto border-t border-white/10 flex items-center justify-between gap-4">
+                      <div
+                        className={`space-y-2 transition-all duration-500 overflow-hidden ${
+                          isActive
+                            ? "max-h-32 opacity-100"
+                            : "max-h-0 opacity-0 md:max-h-32 md:opacity-100"
+                        }`}
+                      >
+                        {material.pros.slice(0, 2).map((pro) => (
+                          <div
+                            key={pro}
+                            className="flex items-start gap-2 text-[11px] md:text-xs text-gray-400"
+                          >
+                            <span className="mt-1 h-[4px] w-[4px] rounded-full bg-gold" />
+                            {pro}
+                          </div>
+                        ))}
                       </div>
                       <button
                         className={`w-9 h-9 md:w-10 md:h-10 rounded-full border flex items-center justify-center transition-all duration-300 ${
